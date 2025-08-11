@@ -1,4 +1,4 @@
-# 🪙 Python Blockchain Project
+# 📚 Python Blockchain Project
 
 ## 📌 About This Project
 This is a minimal blockchain implementation in **Python** demonstrating:
