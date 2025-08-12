@@ -63,19 +63,19 @@ Modifier
 
 ---
 
-🚀 How to Run
-1️⃣ Prerequisites
-Python 3.x installed
-
+🚀 Getting Started
+1️⃣ Install Requirements
+Python 3.x is required.
 ecdsa library installed (pip install ecdsa)
 
-2️⃣ Run the demo
+2️⃣ Run the Example
 bash
 Copier
 Modifier
 python main.py
-Example Output
-plaintext
+Example output:
+
+mathematica
 Copier
 Modifier
 Adding transaction 1...
