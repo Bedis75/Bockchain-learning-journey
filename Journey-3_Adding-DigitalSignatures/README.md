@@ -1,4 +1,4 @@
-# 🚀 Blockchain Learning Journey — Stage 2: Adding Digital Signatures
+# 📚 Blockchain Learning Journey — Stage 2: Adding Digital Signatures
 
 ---
 
@@ -24,6 +24,10 @@ These videos gave me strong foundational knowledge and practical insights on how
 
 ---
 
+![image that represent Crypto keys Systems](Keys_System.png)
+
+---
+
 ## 🛠 Code Improvements in My Blockchain
 
 ### 1. Account Class
@@ -45,3 +49,38 @@ These videos gave me strong foundational knowledge and practical insights on how
 
 ## 📂 Project Structure
 
+.
+├── Account.py # Keypair generation & signing
+├── Block.py # Block structure & PoW mining
+├── Blockchain.py # Chain management & transaction verification
+├── Transaction.py # Transaction model with signatures
+├── proof_of_work.py # Proof of Work implementation
+├── main.py # Example usage & testing
+
+yaml
+Copier
+Modifier
+
+---
+## 🚀 How to Run
+
+### 1️⃣ Prerequisites
+- Python 3.x installed
+- Install `ecdsa` library if not already installed  : pip install ecdsa
+
+### 2️⃣ Run the demo
+```bash
+python main.py
+Expected Console Output Example:
+mathematica
+Copier
+Modifier
+Adding transaction 1...
+Adding transaction 2...
+Adding transaction 3...
+Adding transaction 4...
+Adding transaction 5...
+Mining block 1...
+Block mined: 00000a3e...
+All 5 transactions added. Mining and block addition should be visible above.
+Blockchain valid? True
