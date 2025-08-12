@@ -58,27 +58,14 @@ Copier
 Modifier
 
 ---
+## 🚀 How to Run
 
-## 🚀 How to Run This Project
+### 1️⃣ Prerequisites
+- Python 3.x installed
+- Install `ecdsa` library if not already installed  : pip install ecdsa
 
-1. Make sure you have Python 3.x installed.
-2. Install `ecdsa` library if not already installed:
-
+### 2️⃣ Run the demo
 ```bash
-pip install ecdsa
-Run the main script to see:
-
-Accounts creation
-
-Transactions signed by sender
-
-Verification of signatures
-
-Mining blocks with pending transactions
-
-bash
-Copier
-Modifier
 python main.py
 Expected Console Output Example:
 mathematica
@@ -93,5 +80,3 @@ Mining block 1...
 Block mined: 00000a3e...
 All 5 transactions added. Mining and block addition should be visible above.
 Blockchain valid? True
-🔮 What’s Next?
-Add digital signature verification on the block level.
