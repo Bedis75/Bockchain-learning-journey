@@ -63,21 +63,27 @@ Modifier
 
 ---
 
-## 🚀 How to Run
+🚀 How to Run
+1️⃣ Prerequisites
+Python 3.x installed
 
-### 1️⃣ Prerequisites
-- Python 3.x installed
+ecdsa library installed (pip install ecdsa)
 
-### 2️⃣ Run the demo
-```bash
-python main.py
-Example Output
-mathematica
+2️⃣ Run the demo
+bash
 Copier
 Modifier
+python main.py
+Example Output
+plaintext
+Copier
+Modifier
+Adding transaction 1...
+Adding transaction 2...
+Adding transaction 3...
+Adding transaction 4...
+Adding transaction 5...
 Mining block 1...
 Block mined: 00000a3e...
-Mining block 2...
-Block mined: 000001bc...
+All 5 transactions added. Mining and block addition should be visible above.
 Blockchain valid? True
-Block(2, Mon Aug 11 15:32:10 2025, Block 2, [...], 000001bc...)
